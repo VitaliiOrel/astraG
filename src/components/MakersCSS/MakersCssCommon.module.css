@@ -1,0 +1,88 @@
+.container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.inputGroup {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex-grow: 1;
+}
+
+.button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Стили для плавной анимации высоты */
+.list {
+  display: grid;
+  grid-template-rows: 0fr;
+  /* transition: grid-template-rows 0.3s ease; */
+  transition: height 0.5s ease;
+  overflow: hidden;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+}
+
+.listEmpty {
+  /* grid-template-rows: 0fr; */
+  height: 0;
+}
+
+.list1 {
+  /* grid-template-rows: 1fr; */
+  height: 50px;
+}
+.list2 {
+  /* grid-template-rows: 1fr; */
+  height: 100px;
+}
+.list3 {
+  /* grid-template-rows: 1fr; */
+  height: 150px;
+}
+.list4 {
+  /* grid-template-rows: 1fr; */
+  height: 200px;
+}
+.list5 {
+  /* grid-template-rows: 1fr; */
+  height: 250px;
+}
+
+.listContent {
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.listItem {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 8px;
+  background-color: #f8f9fa;
+  color: #0056b3;
+  border-radius: 4px;
+}
