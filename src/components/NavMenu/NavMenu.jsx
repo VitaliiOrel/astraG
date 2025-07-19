@@ -10,6 +10,7 @@ const NavMenu = () => {
         <Link to="/makers-css">- Makers CSS</Link>
         <Link to="/radiochoose">- Radio buttons</Link>
         <Link to="/typing-trainer">- Typing trainer</Link>
+        <Link to="/text-analizer">- Text analizer</Link>
       </div>
     </>
   )
