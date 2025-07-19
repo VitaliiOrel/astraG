@@ -91,10 +91,12 @@ const TextAnalizer = () => {
         />
         {error && <p className={styles.error}>{error}</p>}
       </div>
+      <div>Unique: {wordFrequencies?.length}</div>
       {wordFrequencies.length > 0 && (
         <table className={styles.table}>
           <thead>
             <tr>
+              <th>No</th>
               <th>Word</th>
               <th>Frequency</th>
             </tr>
@@ -102,6 +104,7 @@ const TextAnalizer = () => {
           <tbody>
             {wordFrequencies.map((entry, index) => (
               <tr key={index}>
+                <td>{index + 1}</td>
                 <td>{entry.word}</td>
                 <td>{entry.count}</td>
               </tr>
