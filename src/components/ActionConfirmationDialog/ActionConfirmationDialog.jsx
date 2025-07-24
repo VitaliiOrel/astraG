@@ -9,9 +9,7 @@ const ActionConfirmationDialog = ({ setMode, sendData }) => {
   }
   return (
     <div className={styles.container}>
-      <div>
-        ActionConfirmationDialogActionConfirmationDialogActionConfirmationDialogActionConfirmationDialogActionConfirmationDialogActionConfirmationDialogActionConfirmationDialogActionConfirmationDialogActionConfirmationDialogActionConfirmationDialog
-      </div>
+      <div>ActionConfirmationDialog</div>
       <div className={styles.btnBlock}>
         <button onClick={handleConfirm}>Confirm</button>
         <button onClick={handleCancel}>Cancel</button>
