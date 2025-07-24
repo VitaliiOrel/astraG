@@ -11,6 +11,7 @@ const NavMenu = () => {
         <Link to="/radiochoose">- Radio buttons</Link>
         <Link to="/typing-trainer">- Typing trainer</Link>
         <Link to="/text-analizer">- Text analizer</Link>
+        <Link to="/info-block">- Info with portal</Link>
       </div>
     </>
   )

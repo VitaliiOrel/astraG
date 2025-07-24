@@ -8,6 +8,7 @@ import MakersCss from './components/MakersCSS/MakersCss'
 import ToggleRadioButtons from './components/RadioChoose/RadioChoose'
 import TypingTrainer from './components/TypingTrainer/TypingTrainer'
 import TextAnalizer from './components/TextAnalizer/TextAnalizer'
+import InfoBlock from './components/InfoBlock/InfoBlock'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/radiochoose" element={<ToggleRadioButtons />} />
           <Route path="/typing-trainer" element={<TypingTrainer />} />
           <Route path="/text-analizer" element={<TextAnalizer />} />
+          <Route path="/info-block" element={<InfoBlock />} />
         </Routes>
       </BrowserRouter>
     </>
